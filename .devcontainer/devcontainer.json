@@ -1,4 +1,6 @@
 {
-  "dockerComposeFile": "docker-compose.yml",
-  "service": "gbp",
+  "name": "bg",
+  "build": {
+    "dockerfile": "./Dockerfile"
+  }
 }
