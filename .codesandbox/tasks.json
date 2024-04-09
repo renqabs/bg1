@@ -6,7 +6,7 @@
   "tasks": {
       "supervisor": {
       "name": "supervisor",
-      "command": "npm start",
+      "command": "cd /home/user/app;npm start",
       "runAtStart": true
   }
 }
