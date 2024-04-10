@@ -28,7 +28,7 @@ WORKDIR $HOME/app/bg
 RUN npm install
 RUN npm run build
 
-ENV PORT 7860
-EXPOSE 7860
+ENV PORT 8080
+EXPOSE 8080
 
 CMD npm start
