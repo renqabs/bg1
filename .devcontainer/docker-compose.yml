@@ -1,8 +1,8 @@
 services:
-  gbp:
+  bg:
     build: 
       context: .
       dockerfile: Dockerfile
       no_cache: true
     ports:
-      - 8080:8080
+      - 7860:7860
